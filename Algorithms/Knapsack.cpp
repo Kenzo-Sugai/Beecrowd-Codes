@@ -9,7 +9,6 @@ struct conteudo {
     int peso;
 };
 
-int tam;
 vector<conteudo> mochila;
 
 int Knapsack(int i, int tamanho){
@@ -28,8 +27,7 @@ int Knapsack(int i, int tamanho){
 
 int main(){
 
-    int N, t, w, sum = 0;
-    double v;
+    int N, t, w, tam;
 
     while(cin >> N){
         if(!N) return 0;
